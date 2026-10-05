@@ -32,7 +32,13 @@ print(.2 * .4)
 #Imprimir la edad de alguien
 edad = 34 #varianle del tipo int
 #message = "Charly tiene" + age + "años" #Python no puede poner eneteros en un string
-#BUILD-IN son métodos que vienen integrados a python Ejemplos: print() str() type()
+""""
+BUILD-IN son métodos que vienen integrados a python 
+Ejemplos: 
+print() 
+str() 
+type()
+"""
 message = "Charly tiene " + str(edad) + " años" #STR convierte un int a string
 print(message)
 #type error
