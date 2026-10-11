@@ -1,0 +1,3 @@
+print("Error de sintaxis")
+
+      

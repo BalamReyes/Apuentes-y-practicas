@@ -23,3 +23,34 @@ for magician in magicians:
         print(f"{magician.title()} ese fue un gran hechizo")
         print(f"no puedo esperar a ver el siguiente hechizo {magician.upper()}\n")
 print("Ese fue un gran espectáculo")
+
+#IDENTACIÓN
+"""
+    Python utiliza la idengtación para determinar
+    cuando una línea de código está conectada a la
+    líea de código anterior
+
+    Básicamente, se usan 4 espacios en blando para
+    obligarnos a escribir código ordenado y estructurad
+"""
+# No olvidemos identar- Tracenack IdentationError
+magicians = ["alice", "david", "caroline"]
+#for magiian in magicians:
+#pritn(magician) #identation error
+
+#Error de lógica- Logic error- IdentationError
+for magician in magicians:
+     print(magician)
+print(f"No puedo esperar a ver el hechizo, {magician}")
+
+#CORRECTO
+for magician in magicians:
+     print(magician)
+     print(f"no puedo esperar a ver el siguiente hechizo, {magician}")
+# Identación innecesaria
+#message = "Hello World"
+#    print(message)
+
+#ERROR DE SINTAXIS NO OKVIDAR LOS :
+#for magician in magicians
+#    print(magician)
